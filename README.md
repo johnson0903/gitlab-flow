@@ -127,9 +127,9 @@ Wait for the *Merge Request* to be approved and the build of the master branch t
 
 <img src="https://github.com/jadsonjs/gitlab-flow/blob/master/images/flow11.png" width=600 align=center>
 
-When automatic tests pass in the master branch, due to urgency, you should not wait for the master branch to be merged in other environments branches. Make a *merge / merge request* **from your feature branch** to **all** other branches of internal environments.
+When automatic tests pass in the master branch, due to urgency, you should not wait for the master branch to be merged in other environments branches. Make a *merge / merge request* **from your error correction branch** to **all** other branches of internal environments.
 
-As your feature branch is the production branch with your new commit, usually just a unique commit will be merged to the production branch. Make sure to merge these changes to all environments branches. Or the error correction / urgent change can be lost.
+As your error correction branch is the production branch with your new commit, usually just a unique commit will be merged to the production branch. Make sure to merge these changes to all environments branches. Or the error correction / urgent change can be lost.
 
 Create a tag, to mark a new system version.
 
